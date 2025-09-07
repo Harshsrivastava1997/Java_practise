@@ -8,15 +8,19 @@ public class PriorityQueueCode {
         PriorityQueue pq = new PriorityQueue();
 
         //Adding elements to priorityQueue using add() method
+        // Duplicates are allowed and also insertion order is preserved
+        // Only Homogeneous data is allowed
 
         pq.add(10);
         pq.add(20);
+        pq.add(10); // Duplicates are allowed
        // pq.add("Harsh"); // it should give exception because only homogeneous data is allowed
 
         //Adding elemets using offer() method
 
         pq.offer(30);
         pq.offer(40);
+        pq.offer(40); //Duplcates are allowed
         // pq.offer("Srivastava"); // it should return false becuase only homogenous data is allowed
 
         System.out.println("Priority Queue elements are : "+pq);
