@@ -32,6 +32,9 @@ public class BasicOperationinHashMap {
         hm.remove(null);
         System.out.println("After removing Hashmap is : "+hm);
 
+        // Retrieving values based on keys
+        System.out.println("Value for key 3 is "+hm.get(3));
+
         //Checking is hasmap empty
         System.out.println("IS hashmap empty? "+hm.isEmpty());
 
