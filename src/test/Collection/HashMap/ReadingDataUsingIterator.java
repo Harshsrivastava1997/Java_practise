@@ -2,7 +2,7 @@ package test.Collection.HashMap;
 
 import java.util.HashMap;
 import java.util.Iterator;
-
+import java.util.Map;
 
 
 public class ReadingDataUsingIterator {
@@ -18,6 +18,10 @@ public class ReadingDataUsingIterator {
         // Using iterator to read data
         Iterator it = hmnew.entrySet().iterator();
 
-       // while(it.)
+        while(it.hasNext())
+        {
+            Map.Entry entry=(Map.Entry)it.next(); // Storing one by one entry in map
+            System.out.println(entry.getKey()+ " : "+entry.getValue()); // Printing key and value pair
+        }
     }
 }
