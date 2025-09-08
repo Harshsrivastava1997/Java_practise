@@ -14,7 +14,20 @@ public class ReadingDataUsingEnhancedForLoop {
         hmnew.put("Jenkins", null);
 
         //Using enhanced for loop to read data
-        //Using enhanced for loop to read data
+        //First read all keys using keyset() method
+
+        for(String key_values:hmnew.keySet())
+        {
+            System.out.println("All keys are : "+key_values);
+        }
+
+        // Now reading all values
+        for(String values : hmnew.values())
+        {
+            System.out.println("All values are : "+values);
+        }
+
+        // Combining both keys and vlaues pair
 
         for(String keys:hmnew.keySet())
         {
