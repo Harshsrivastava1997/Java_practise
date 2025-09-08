@@ -38,5 +38,10 @@ public class BasicOperation {
 
         System.out.println("Value for key 8 is : "+ht.get(8));
 
+        //Removing element from hashtable
+        //it based on index , not on value
+        ht.remove(2);
+        System.out.println("New HashTable is "+ht);
+
     }
 }
