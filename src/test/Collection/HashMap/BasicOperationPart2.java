@@ -29,7 +29,7 @@ public class BasicOperationPart2 {
 
         System.out.println("All values from Hashmap are : "+hm.values());
 
-        // Priting key and valus both
+        // Printing key and values both
 
         System.out.println("All keys and values are : "+hm.entrySet());
 
